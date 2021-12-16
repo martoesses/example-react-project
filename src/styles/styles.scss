@@ -1,0 +1,10 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.list-item {
+  @extend .list-group-item;
+  @extend .list-group-item-action;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
